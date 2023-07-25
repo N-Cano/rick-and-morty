@@ -1,0 +1,52 @@
+.card {
+    margin: 1rem;
+    color: white;
+    text-align: center;
+    background-image: url(../../img/card.jpg);
+    border-radius: 2rem;
+    padding: 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.statusAlive{
+    background-color: green;
+    width: 6rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.statusDead{
+    background-color: red;
+    width: 8rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+img {
+    border-radius: 50%;
+    transition: border 0.3s ease; /* Transición suave para el borde */
+    box-sizing: border-box;
+    border: 2px solid #69C8ECFF;
+}
+
+img:hover {
+    border: 2px solid greenyellow;
+    box-sizing: border-box;
+}
+
+.species{
+    color: #69C8ECFF;
+    -webkit-text-stroke: 1px greenyellow;
+    font-size: 36px;
+    transition: 0.3s ease-in-out;
+}
+
+.species:hover {
+    color: greenyellow;
+    -webkit-text-stroke: 1px #69C8ECFF;
+    transform: scale(1.2);
+}
