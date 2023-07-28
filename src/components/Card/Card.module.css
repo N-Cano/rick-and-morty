@@ -13,27 +13,31 @@
 }
 
 .statusAlive{
+    border-radius: .5rem;
     background-color: green;
-    width: 6rem;
+    width: 8rem;
     margin: auto;
     margin-bottom: 1rem;
+    padding: .2rem 0;
 }
 
 .statusDead{
+    border-radius: .5rem;
     background-color: red;
     width: 8rem;
     margin: auto;
     margin-bottom: 1rem;
+    padding: .2rem 0;
 }
 
-img {
+.img {
     border-radius: 50%;
     transition: border 0.3s ease; /* Transición suave para el borde */
     box-sizing: border-box;
     border: 2px solid #69C8ECFF;
 }
 
-img:hover {
+.img:hover {
     border: 2px solid greenyellow;
     box-sizing: border-box;
 }
